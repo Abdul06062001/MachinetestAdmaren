@@ -1,0 +1,22 @@
+<h2 class="text-center fs-3">Add Story Form</h2>
+
+<!-------------------------Form -------------------------------->
+<div class="container">
+     <div class="row">
+          <div class="col-xl-12">
+               <form #details="ngForm" (ngSubmit)="submitValue(details.value)">
+                    <div style="display:grid; gap: 20px;">
+                    <input placeholder="Story name....." class="form-control" ngModel name="Storyname">
+                    <textarea placeholder="story point...." style="height: 10rem;" class="form-control" ngModel name="storypoint"></textarea>
+                    </div>
+                     <br>
+                    <button type="submit" class="btn btn-primary">Add Story</button>
+               </form>
+          </div>
+     </div>
+         
+                
+</div>
+
+
+

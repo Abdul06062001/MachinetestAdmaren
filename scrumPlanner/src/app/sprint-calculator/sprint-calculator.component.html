@@ -1,0 +1,18 @@
+<h2 class="text-center fs-3">Sprint calculator</h2>
+<div class="container">
+   <div class="row">
+     <div class="col-xl-12">
+          <form >
+               <div style="display:grid; gap: 20px;">
+               <input placeholder="Sprint Point..." #data>
+               <button class="btn btn-primary" type="submit" (click)="submit(data.value)" >Auto Select Stories</button>
+               <br>
+               <br>
+               <button class="btn btn-primary" (click)="clearStories(stoty.id)">Clear Stories </button>
+               <button class="btn btn-primary">Clear Sprints </button>
+               </div>
+          </form>
+          
+     </div>
+   </div>
+</div>

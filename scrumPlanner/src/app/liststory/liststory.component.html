@@ -1,0 +1,19 @@
+<div class="container">
+   <div class="row">
+      <div class="col-3" *ngFor="let item of stories">
+
+
+     <!--------------------------------Card----------------------------------->
+
+          <div class="card" style="width: 18rem;">
+               <div class="card-body">
+                 <h5 class="card-title">{{item.Storyname}}</h5>
+                
+                 <p class="card-text">{{item.storypoint}}</p>
+
+                 <button class="btn btn-primary" routerLink="/spCalculator">Sprint Calculator</button>
+               </div>
+             </div>
+      </div>
+   </div>    
+</div>

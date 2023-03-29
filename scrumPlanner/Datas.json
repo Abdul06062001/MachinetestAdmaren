@@ -1,0 +1,24 @@
+{
+  "Stories": [
+    {
+      "Storyname": "hei",
+      "storypoint": "1",
+      "id": 1
+    },
+    {
+      "Storyname": "hi",
+      "storypoint": "2",
+      "id": 2
+    },
+    {
+      "Storyname": "hei",
+      "storypoint": "1",
+      "id": 3
+    },
+    {
+      "Storyname": "hei",
+      "storypoint": "7",
+      "id": 4
+    }
+  ]
+}
